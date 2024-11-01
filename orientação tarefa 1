@@ -1,0 +1,41 @@
+Análise de Fatores de Risco para Doença Cardíaca Usando o Conjunto de Dados de Doenças Cardíacas
+Neste exercício, você irá trabalhar com um conjunto de dados de saúde que contém informações apresentadas sobre fatores de risco para doenças cardíacas. O conjunto de dados inclui variáveis ​​como idade, sexo, tipo de dor no peito, pressão arterial em ansiedade, colesterol sérico e outras orientações clínicas.
+
+Objetivo: realizar uma análise exploratória e desenvolver um modelo preditivo para identificar a presença de doença cardíaca com base nesses fatores.
+
+Conjunto de dados
+O conjunto de dados inclui as seguintes variáveis:
+
+idade: Idade do paciente.
+sexo: Sexo (1 = masculino; 0 = feminino).
+cp: Tipo de dor no peito (4 valores: 1 = angina típica; 2 = angina atípica; 3 = dor não anginosa; 4 = assintomática).
+trestbps: Pressão arterial em repouso (mm Hg).
+col: Colesterol sérico em mg/dl.
+fbs: Açúcar no sangue em jejum > 120 mg/dl (1 = verdadeiro; 0 = falso).
+restecg: Resultados do eletrocardiograma em segurança (0 = normal; 1 = com anormalidade na onda ST-T; 2 = hipertrofia ventricular esquerda).
+thalach: Frequência cardíaca máxima atingida.
+exemplo: Angina causada por exercício (1 = sim; 0 = não).
+oldpeak: Depressão do segmento ST causada por exercício em relação à segurança.
+inclinação: Inclinação do segmento ST no pico do exercício (1 = subida; 2 = plana; 3 = descendente).
+ca: Número de vasos principais (0-3) coloridos por fluoroscopia.
+tal: 0 = normal; 1 = defeito corrigido; 2 = defeito reversível.
+alvo: Diagnóstico de doença cardíaca (1 = presença de doença; 0 = ausência de doença).
+Passos
+Leitura do Dataset
+
+Análise Descritiva
+
+Explore as estatísticas descritivas das variáveis, como idade, chol, trestbps, e thalach.
+Visualização de Dados
+Crie gráficos para explorar a distribuição das variáveis ​​como age, chol, trestbps, e thalach. Utilize histogramas, boxplots e gráficos de dispersão.
+Teste de Correlação
+Realize testes de brilho para identificar a relação entre variáveis ​​contínuas, como idade, colesterol, e frequência cardíaca máxima.
+Modelo Explicativo: Regressão Logística
+Construa um modelo de regressão logística para prever a presença de doença cardíaca (alvo) usando variáveis ​​como idade, sexo, cp, chol, thalach, e ca.
+Interpretação dos Resultados
+Interpretar os coeficientes do modelo de regressão logística, focando nas variáveis ​​significativas. Discuta como essas variáveis ​​influenciam a probabilidade de presença de doença cardíaca.
+Calcule o AIC do modelo e discuta sua relevância na seleção do modelo.
+Conclusão
+Com base na análise, concluímos quais fatores de risco são mais relevantes para a previsão de doenças cardíacas e como esses insights podem ser utilizados na prática clínica ou em estudos futuros.
+Baixar da base
+link
